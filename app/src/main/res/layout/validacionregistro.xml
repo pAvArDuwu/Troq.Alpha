@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Título principal -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="@string/txtconfirmar"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="center"/>
+
+        <!-- Subtítulo -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/txtconfirm"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/txtMensajeTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Listo para comprar, vender y hacer trueques! Solo falta tu número para validar la cuenta y arrancar."
+            android:textColor="#000000"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            />
+
+        <!-- Campo número de teléfono -->
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:hint="Introduce tu número de teléfono"
+            android:inputType="phone"
+            android:background="@drawable/inicio_sesion"/>
+
+        <!-- Texto de aviso -->
+        <TextView
+            android:id="@+id/txtCodigoInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Te enviamos un código de verificación a tu correo. Introdúcelo abajo:"
+            android:textAlignment="center"/>
+
+        <!-- Campo código de verificación -->
+        <EditText
+            android:id="@+id/editTextCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:hint="Código de verificación"
+            android:inputType="number"
+            android:background="@drawable/inicio_sesion"/>
+
+        <!-- Botón validar -->
+        <Button
+            android:id="@+id/btnValidarCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/validar_c_digo"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"/>
+
+        <!-- (Opcional) Botón reenviar código -->
+        <TextView
+            android:id="@+id/txtReenviarCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="¿No recibiste el código? Reenviar"
+            android:textAlignment="center"
+            android:textColor="#2196F3"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

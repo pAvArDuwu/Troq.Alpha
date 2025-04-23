@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiApicacion</string>
+    <string name="txtview">Registrate</string>
+    <string name="txtviw2">¡Crea tu cuenta y empieza a troquear y publicar lo que quieras vender!</string>
+    <string name="boton_facebook">Registrarse con facebook</string>
+    <string name="registrarse_con_google">Registrarse s</string>
+    <string name="registrarse_con_Apple">Registrarse con Apple ID</string>
+    <string name="txtconfirmar">Confirma tu registro</string>
+    <string name="txtconfirm">¡Termina de registrarte y disfruta de vender!</string>
+    <string name="validar_c_digo">Confirmar Registro</string>
+</resources>
