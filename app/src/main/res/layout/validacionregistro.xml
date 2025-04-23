@@ -90,6 +90,18 @@
             android:textColor="#FFFFFF"/>
 
         <!-- (Opcional) Botón reenviar código -->
+
+        <LinearLayout
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp"
+            android:layout_width="212dp"
+            android:layout_height="203dp"
+            android:background="@drawable/img"
+            android:orientation="vertical"
+            android:src="@drawable/img"
+
+            />
+
         <TextView
             android:id="@+id/txtReenviarCodigo"
             android:layout_width="match_parent"
@@ -98,13 +110,6 @@
             android:text="¿No recibiste el código? Reenviar"
             android:textAlignment="center"
             android:textColor="#2196F3"/>
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_marginTop="24dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/logo" />
 
 
     </LinearLayout>
