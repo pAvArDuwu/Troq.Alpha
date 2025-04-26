@@ -17,4 +17,6 @@
     <string name="bttn_rergistrarGoogle">Registrarse con Google</string>
     <string name="bttn_RegistarApple">Registrarse con Apple ID</string>
     <string name="bttn_sig">Siguiente</string>
+    <string name="tv_Registrar">¿No tienes cuenta? Regístrate</string>
+    <string name="bttninicio">Iniciar Sesión</string>
 </resources>
