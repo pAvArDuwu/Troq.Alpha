@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MiApicacion"
         tools:targetApi="31">
         <activity
+            android:name=".RegistroVentasActivity"
+            android:exported="false" />
+        <activity
             android:name=".ValidarActivity"
             android:exported="false" />
         <activity
